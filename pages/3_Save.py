@@ -8,10 +8,10 @@ from dotenv import load_dotenv, find_dotenv
 # Load environment variables
 load_dotenv(find_dotenv())
 db_name = os.environ.get('db_name')
-db_user = os.environ.get('db_user')
-db_password = os.environ.get('db_password')
-db_host = os.environ.get('db_host', 'localhost')
-db_port = os.environ.get('db_port', '5432')
+db_user = os.environ.get('username')
+db_password = os.environ.get('password')
+db_host = os.environ.get('hostname', 'localhost')
+db_port = os.environ.get('endpoint', '5432')
 
 # Initialize SQLAlchemy session
 session = sql()

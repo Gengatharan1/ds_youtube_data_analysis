@@ -1,13 +1,7 @@
 # youtube creds
 yt_api_key=
 
-# mongodb cred
-mdb_usr=
-mdb_pwd=
-mdb_appName=
-mdb_dbName=
-
-# aws rds postgre creds
+# postgresql creds
 sql_db_usr=
 sql_db_pwd=
 sql_db_endpoint=

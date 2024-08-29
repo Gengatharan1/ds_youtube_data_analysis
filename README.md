@@ -26,6 +26,11 @@ A Streamlit application that allows users to access and analyze data from multip
 1. IDE (VS Code)
 2. Python
 3. Git (with git bash)
+4. psycopg2-binary
+5. sqlalchemy
+6. pandas
+7. streamlit
+8. matplotlib
 
 ### Code
 
