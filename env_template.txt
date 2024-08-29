@@ -1,0 +1,27 @@
+# youtube creds
+yt_api_key=
+
+# mongodb cred
+mdb_usr=
+mdb_pwd=
+mdb_appName=
+mdb_dbName=
+
+# aws rds postgre creds
+sql_db_usr=
+sql_db_pwd=
+sql_db_endpoint=
+sql_db_dbname=
+
+# collection names
+db_channels_coll_name=
+db_videos_coll_name=
+db_comments_coll_name=
+
+
+# sample channel ids
+# UC4JX40jDee_tINbkjycV4Sg - Tech With Tim
+# UC8wZnXYK_CGKlBcZp-GxYPA - NeuralNine
+# UC5cY198GU1MQMIPJgMkCJ_Q - Mr.GK
+# UCvyZS6W6zMJCZBVzF-Ei6sw - A2D
+# UCwr-evhuzGZgDFrq_1pLt_A - Error Makes Clever Academy
