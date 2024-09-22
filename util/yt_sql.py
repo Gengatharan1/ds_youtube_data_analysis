@@ -30,14 +30,11 @@ db_channels_coll_name = os.environ.get('db_channels_coll_name')
 db_videos_coll_name = os.environ.get('db_videos_coll_name')
 db_comments_coll_name = os.environ.get('db_comments_coll_name')
 
-
 # Create engine
 engine = create_engine(db_url)
 
-
 # Create a base class for your ORM models
 Base = declarative_base()
-
 
 # Define your ORM model
 class YtChannelModel(Base):
@@ -68,7 +65,6 @@ class YtVideosModel(Base):
     view_count = Column(Integer)
     like_count = Column(Integer)
     comment_count = Column(Integer)
-
 
 class YtCommentsModel(Base):
     __tablename__ = db_comments_coll_name

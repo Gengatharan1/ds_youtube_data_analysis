@@ -36,8 +36,8 @@ A Streamlit application that allows users to access and analyze data from multip
 
 Clone this repository and ```cd``` into that directory
 ``` 
-git clone https://github.com/Gengatharan1/youtube_data_harvesting.git
-cd youtube_data_harvesting
+git clone https://github.com/Gengatharan1/ds_youtube_data_analysis.git
+cd youtube_data_analysis
 ```
 
 ### Python packages
